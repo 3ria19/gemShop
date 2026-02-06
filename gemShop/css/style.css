@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 248, 245);
+    background-color: rgb(243, 252, 243);
 }
 
 h1 {
@@ -9,6 +9,19 @@ h1 {
 
 .price{
     display: flex;
+}
+
+.products {
+    padding: 10px;
+}
+
+.prod_list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
 }
 
 .prod_list img {
