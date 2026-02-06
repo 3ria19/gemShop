@@ -35,3 +35,15 @@ h1 {
     flex: 1;           /* each product takes equal space */
     max-width: 250px;  /* limit size per item */
 }
+
+/* 📱 Mobile view: stack items vertically */
+@media (max-width: 768px) {
+    .prod_list {
+        flex-direction: column;   /* stack items */
+        align-items: center;      /* center them */
+    }
+
+    .product_image {
+        max-width: 90%;           /* take most of screen width */
+    }
+}
